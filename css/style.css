@@ -29,61 +29,42 @@ a:visited {
 	color: #afca17;
 }
 
-arrowScroll {
-	animation: bounce-fade 1.2s infinite;
-}
-
 p {
-	font-size: 12pt;
-}
-
-aside {
-	display: inline-block;
-	float: right;
-	width: 60%;
-	margin-right: 20px;
-	text-indent: 20px;
-	text-align: justify;
+	font-size: 1rem;
 }
 
 /****************************** MENU ************************************/
-#header, #footer{
+header{
 	position:fixed;
-	height: 50px;
-	display:block;
-	width: 100%;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
 	background: #6F6F6E;
-	z-index:9;
-	text-align:center;
-	color: #f2f2f2;
-	padding: 20px 0 0 0;
 	text-align: right;
-
-}
-
-#header{
-	top:0px;
-	background:  url(ressources/header.png) #6F6F6E no-repeat top center;
-}
-
-#header p{
-	margin-right: 1em;
-	font-size: 26px;
-}
-
-#menu {
-	display: flex;
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 70px;
-	z-index: 70;
+	justify-content: space-between;
 	width: 100%;
-	padding: 0;
-	margin: 0;
+	/* background:  url(ressources/header.png) #6F6F6E no-repeat top center; */
 }
 
-#menu li, .bouton {
+@media screen and (max-width: 700px) {
+	header {
+		justify-content: center;
+	}
+}
+
+header h1{
+	font-size: 1.7rem;
+	padding: 1rem;
+	flex: initial;
+	flex-shrink: 0;
+	color: white
+}
+
+nav {
+	flex: initial;
+}
+
+nav li, .bouton {
 	vertical-align: middle;
 
 	display: inline-block;
@@ -101,18 +82,18 @@ aside {
 	transition: border-radius 0.3s;
 }
 
-#menu li.active, #menu .active:hover  {
+nav li.active, nav .active:hover  {
 	background: rgb(175, 202, 23);
 	color: #fff;
 }
 
-#menu li a, .bouton a {
+nav li a, .bouton a {
 	text-decoration: none;
 	color: #000;
 }
 
 
-#menu li:hover, .bouton:hover {
+nav li:hover, .bouton:hover {
 	-webkit-border-top-right-radius: 25px;
 	-webkit-border-bottom-left-radius: 25px;
 	border-bottom-left-radius: 25px;
@@ -126,30 +107,16 @@ aside {
 	background: rgba(255, 255, 255, 0.8);
 }
 
-#menu li a, #menu li.active a, .bouton a {
+nav li a, nav li.active a, .bouton a {
 	padding: 16px 12px;
 	display: block;
 }
 
-#menu li.active a {
+nav li.active a {
 	color: #fff;
 }
 
-@media screen and (max-width: 640px) {
-	#header {
-		height: 6.5em;
-		text-align: center;
-		background: #6F6F6E;
-		font-size: 1em;
-	}
-
-	#menu {
-		padding: 4em 0 0 0;
-		display: block;
-	}
-}
-
-#footer{
+footer{
 	text-align: center;
 	display: flex;
 	bottom:0px;
@@ -158,7 +125,7 @@ aside {
 
 }
 
-#footer p, #footer a {
+footer p, footer a {
 	margin-left: 1em;
 	margin-right: 1em;
 	font-size: 1em;
@@ -184,15 +151,18 @@ aside {
 
 /*******************   SECTIONS ************************/
 
-#section1 img {
+.presentation img {
 	margin: 5%;
 	width: 25%;
 }
-#dg-container img {
-	height: 316px;
-	padding: 0;
+aside {
+	display: inline-block;
+	float: right;
+	width: 60%;
+	margin-right: 20px;
+	text-indent: 20px;
+	text-align: justify;
 }
-
 
 /*******************   CONTACT ************************/
 
