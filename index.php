@@ -6,11 +6,11 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Alicia Rannou</title>
 	<meta name="description" content="portfolio alicia rannou MMI" />
-	<meta name="keywords" content="alicia rannou multimédia MMI internet developpement web portfolio" />
+	<meta name="keywords" content="alicia rannou multimédia MMI internet ingénieur ingénieur developpement web PHP linkedin recruter job enssat html angular front-end" />
 	<meta name="Resource-type" content="Document" />
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="images/faviconV1.ico" />
-	<link rel="stylesheet" type="text/css" href="./fullPage.js-master/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 
 	<!--[if IE]>
@@ -21,23 +21,8 @@
 
 	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script src="script.js"></script>
 
-	<script type="text/javascript" src="./fullPage.js-master/jquery.fullPage.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function () {
-			$('#fullpage').fullpage({
-				anchors: ['Présentation', 'Parcours', 'Créations', 'Contact'],
-//				anchors: ['Accueil', 'Présentation', 'Parcours', 'Créations', 'Contact'],
-				menu: '#menu',
-				loopTop: true,
-				loopBottom: true,
-				scrollingSpeed: 700,
-				slidesNavigation: true
-			});
-		});
-	</script>
 
 </head>
 
@@ -53,35 +38,29 @@
 	}
 	?>
 
-
-	<nav>
-		<ul id="menu">
-	<!--
-			<li data-menuanchor="Accueil"><a href="#Accueil">Accueil</a>
+	<header>
+		<nav>
+			<ul>
+				<li class="active">
+					<a href="#Présentation">Présentation</a>
+				</li>
+				<li ><a href="#Parcours">Parcours</a>
 			</li>
-	-->
-			<li data-menuanchor="Présentation" class="active"><a href="#Présentation">Présentation</a>
-			</li>
-			<li data-menuanchor="Parcours"><a href="#Parcours">Parcours</a>
-			</li>
-			<li data-menuanchor="Créations"><a href="#Créations">Créations</a>
-			</li>
-			<li data-menuanchor="Contact"><a href="#Contact">Contact</a>
-			</li>
+			<li><a href="#Créations">Créations</a>
+		</li>
+		<li><a href="#Contact">Contact</a>
+		</li>
 		</ul>
-	</nav>
+		</nav>
+		<h1>Alicia Rannou</h1>
+	</header>
 
+	<main>
 
-	<div id="fullpage">
-<!--
-		<div class="section " id="section0">
-			<h1>Bienvenue</h1>
-		</div>
--->
-
-
-		<div class="section" id="section1">
-			<img alt="Alicia Rannou" src="images/moi.png" />
+		<section class="presentation">
+			<div>
+				<img alt="Alicia Rannou" src="images/moi.png" />
+			</div>
 			<aside>
 				<h1>Présentation</h1>
 				<p>Bonjour ! Je m'appele Alicia et je vous souhaite la bienvenue sur mon site !</p>
@@ -95,10 +74,10 @@
 				<a href=""><img class='icon' alt="Mon Linkedin" src="images/linkedin.png" /></a>
 				<a href=""><img class='icon' alt="Mon GitHub" src="images/github.png" /></a>
 			</aside>
-		</div>
+		</section>
 
 
-		<div class="section" id="section2">
+		<section id="section2">
 			<div class="parcours">
 				<h1>Parcours</h1>
 				<div>
@@ -129,9 +108,9 @@
 					<li>Lycée général Renée Cassin de Montfort-sur-Meu (35)</li>
 				</div> -->
 			</div>
-		</div>
+		</section>
 
-		<div class="section" id="section3">
+		<section id="section3">
 			<div class="slide" id="slide1" data-anchor="slide1">
 				<img src="images/Logos.jpg" alt="image01">
 				<div>
@@ -367,13 +346,12 @@
 					<span>Réalisés à la main ou à la tablette graphique</span>
 				</div>
 			</div>
-		</div>
+		</section>
 
 
-		<div class="section" id="section4">
+		<section id="section4">
 			<div class="intro">
 				<h1>Contact</h1>
-<!--				<form action="index.php" method="POST">-->
 				<form action="envoiMail.php" method="POST">
 					<fieldset>
 						<div>
@@ -402,29 +380,15 @@
 					</div>
 				</form>
 			</div>
-		</div>
-	</div>
+		</section>
+	</main>
 
-	<div id="footer" style="background-color:gray">
-		<p>© 2016 Alicia Rannou</p>
+	<footer style="background-color:gray">
+		<p>© 2019 Alicia Rannou</p>
 		<span>|</span>
 		<p>Tous droits réservés</p>
 		<span>|</span>
 		<a href="CV%20v8.0.pdf" target="_blank">Télecharger mon CV</a>
-	</div>
-
-	<div id="header">
-		<p>Alicia Rannou</p>
-	</div>
+	</footer>
 </body>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-79034430-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </html>
