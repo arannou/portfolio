@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Alicia Rannou</title>
+	<meta name="author" content="Matthew Howell" />
+	<meta name="description" content="fullPage continuous scrolling demo." />
+	<meta name="keywords" content="alicia rannou multimédia MMI internet" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="icon" href="images/faviconV1.ico"/>
+	<link rel="stylesheet" type="text/css" href="./fullPage.js-master/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/style-gallerie.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+	
+	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	
+	<script>
+		console.log(window.innerWidth);
+	</script>
+
+	<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+	
+	<script type="text/javascript" src="./fullPage.js-master/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#fullpage').fullpage({
+				anchors: ['Accueil', 'Présentation', 'Parcours', 'Créations', 'Contact'],
+				menu: '#menu',
+				loopTop: true,
+				loopBottom: true,
+				scrollingSpeed: 700
+//				slidesNavigation: true
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+
+
+	<ul id="menu">
+		<li data-menuanchor="Accueil" class="active"><a href="#Accueil">Accueil</a>
+		</li>
+		<li data-menuanchor="Présentation"><a href="#Présentation">Présentation</a>
+		</li>
+		<li data-menuanchor="Parcours"><a href="#Parcours">Parcours</a>
+		</li>
+		<li data-menuanchor="Créations"><a href="#Créations">Créations</a>
+		</li>
+		<li data-menuanchor="Contact"><a href="#Contact">Contact</a>
+		</li>
+	</ul>
+
+
+
+	<div id="fullpage">
+		<div class="section " id="section0">
+			<h1>Bienvenue</h1>
+		</div>
+
+
+		<div class="section" id="section1">
+		<img alt="Alicia Rannou" src="images/moi.png"/>
+			<aside>
+				<h1>Présentation</h1>
+				<p>Bonjour ! Je m'appele Alicia et je vous souhaite la bienvenue sur mon site !</p>
+				<p>Passionnée par le dessin depuis toute petite, j'ai rapidement su affirmer ma <strong>créativité</strong> et mon désir de réaliser des choses originales, qui sortent du commun. Toujours envieuse d'<strong>apprendre</strong>, j'ai vite été atirée par les possibilités quasi infinies que donnent l'informatique.</p>
+				<p>Aujourd'hui en <strong>DUT Métier du Multimédia et de l'internet</strong> à Laval, j'ai la joie de pouvoir enrichir et exercer mes cométences dans les deux domaines que j'apprécie le plus, le <strong>graphisme</strong> et le <strong>developpement web</strong>. C'est ce plaisir de travailler dans ce qui me plaît qui me motive chaque jour pour donner le meilleur de moi-même.</p>
+				<p>J'ai actuellement la chance de participer avec deux de mes amies à un <strong>projet associatif</strong> de création de design graphiques destinés au print sur textile. Le site dédié ouvrira bientôt...</p>
+<!--
+				<p>Pour faire un site avec changement de langue, deux formulaires avec des boutons submit 'en' et 'fr' qui send des values de hidden, envoi relancement de page et pour chaque contenu text, if 'en' mette tel texte, sinon fr.
+				</p>
+-->
+				
+			</aside>
+			<aside>
+				<div class="bouton">
+					<a href="pdf_lambda.pdf" target="_blank">Télecharger mon CV</a>
+				</div>
+			</aside>
+		</div>
+
+
+		<div class="section" id="section2">
+			<div class="parcours">
+				<h1>Parcours</h1>
+				<div>
+					<li>Depuis 2014</li>
+					<li>DUT MMI (Métiers du Multimédia et de l'Interet) à Laval (53). Cette formation en deux ans inclu du développement web, de la création multimadia, du graphisme et de la programmation.</li>
+				</div>
+				<div>
+					<li>Avril - Mai 2016</li>
+					<li>Stage en développement web et webdesign chez Assura à Changé (53). Durant ce stage j'ai ajouté des fonctionnalités au site extranet de l'agence, pour la gestion des contrats de clients.</li>
+				</div>
+				<div>
+					<li>Juillet - Août 2015</li>
+					<li>Développeuse web et base de données en interim chez Boccard à Montauban-de-Bretagne (35). J'ai été amenée à créer un site intranet permettant de consulter et mettre à jour la base de données des projets réalisés par l'entreprise.</li>
+				</div>
+				<div>
+					<li>Juin 2014</li>
+					<li>Obtention du baccalauréat Scientifique spécialité Informatique et Sciences du Numérique, mention bien</li>
+				</div>
+				<div>
+					<li>2011 - 2014</li>
+					<li>Lycée général Renée Cassin de Montfort-sur-Meu (35)</li>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="section" id="section3">
+			<div class="slide" id="slide1" data-anchor="slide1">
+				<div>
+					<h1>Gallerie</h1>
+					<a href="#Créations" class="aActiv">Infographie</a>
+					<a href="#Créations/slide2">Web</a>
+					<a href="#Créations/slide3">Audiovisuel</a>
+					<a href="#Créations/slide4">Programmation</a>
+					<a href="#Créations/slide5">Multimédia</a>
+					<a href="#Créations/slide6">Photographie</a>
+				</div>
+				
+				<div class="container">
+				<!-- Codrops top bar -->
+					<section id="dg-container" class="dg-container">
+						<div class="dg-wrapper">
+							<a href="#"><img src="images/Logos.jpg" alt="image01"><div>Création de pictogrammes</div></a>
+							<a href="#"><img src="images/L'univers-des-chaussures.jpg" alt="image02"><div>Montage storyboard photo</div></a>
+							<a href="#"><img src="images/pbste.jpg" alt="image03"><div>Affiche sur un problème de société</div></a>
+							<a href="#"><img src="images/baleine_airlines-2.0.jpg" alt="image04"><div>Montage à la Magritte</div></a>
+							<a href="#"><img src="images/couverture_v2_01.jpg" alt="image05"><div>Couverture de livre</div></a>
+							<a href="#"><img src="images/feedme.jpg" alt="image05"><div>Charte graphique pour un site de cuisine étudiante</div></a>
+							<a href="#"><img src="images/Affiche-mmi.jpg" alt="image05"><div>Affiche pour la formation DUT MMI</div></a>
+							<a href="#"><img src="images/sides" alt="image05"><div>Police de caractères</div></a>
+						</div>
+						<nav>
+							<span class="dg-prev">&lt;</span>
+							<span class="dg-next">&gt;</span>
+						</nav>
+					</section>
+				</div>
+			</div>
+
+			<div class="slide" id="slide2" data-anchor="slide2">
+				<div>
+					<h1>Gallerie</h1>
+					<a href="#Créations">Infographie</a>
+					<a href="#Créations/slide2" class="aActiv">Web</a>
+					<a href="#Créations/slide3">Audiovisuel</a>
+					<a href="#Créations/slide4">Programmation</a>
+					<a href="#Créations/slide5">Multimédia</a>
+					<a href="#Créations/slide6">Photographie</a>
+				</div>
+				
+
+				<div class="container">
+				<!-- Codrops top bar -->
+					<section id="dg-container" class="dg-container">
+						<div class="dg-wrapper">
+							<a href="#"><img src="images/labyzor.jpg" alt="image01"><div>Projet tut 2015</div></a>
+							<a href="#"><img src="images/1" alt="image02"><div>Boccard benchmarcking</div></a>
+							<a href="#"><img src="images/accueil_2.jpg" alt="image02"><div>Site web pour artisan</div></a>
+						</div>
+						<nav>
+							<span class="dg-prev">&lt;</span>
+							<span class="dg-next">&gt;</span>
+						</nav>
+					</section>
+				</div>
+
+			</div>
+
+			<div class="slide" id="slide3" data-anchor="slide3">
+				<div>
+					<h1>Gallerie</h1>
+					<a href="#Créations">Infographie</a>
+					<a href="#Créations/slide2">Web</a>
+					<a href="#Créations/slide3" class="aActiv">Audiovisuel</a>
+					<a href="#Créations/slide4">Programmation</a>
+					<a href="#Créations/slide5">Multimédia</a>
+				</div>
+				
+				<div class="container">
+				<!-- Codrops top bar -->
+					<section id="dg-container" class="dg-container">
+						<div class="dg-wrapper">
+							<a href="#"><video src="images/Pub-13F_Raynard_Rannou_Julien.mp4" width="480px" controls>Oups</video><div>Publicité contre un problème de société</div></a>
+							<a href="#"><img src="images/Scan%20storyboard.pdf" alt=""/><div>Storyboard pour la publicité</div></a>
+							<a href="#"><video src="images/720p%20Sans%20son.mp4" width="480px" controls>Oups</video><div>Clip vidéo pour Touttim</div></a>
+							<a href="#"><video src="images/reportage_march%C3%A9_banc_720.mp4" width="480px" controls>Oups</video><div>Reportage micro-trottoir</div></a>
+						</div>
+						<nav>
+							<span class="dg-prev">&lt;</span>
+							<span class="dg-next">&gt;</span>
+						</nav>
+					</section>
+				</div>
+				
+			</div>
+
+			<div class="slide" id="slide4" data-anchor="slide4">
+				<div>
+					<h1>Gallerie</h1>
+					<a href="#Créations">Infographie</a>
+					<a href="#Créations/slide2">Web</a>
+					<a href="#Créations/slide3">Audiovisuel</a>
+					<a href="#Créations/slide4" class="aActiv">Programmation</a>
+					<a href="#Créations/slide5">Multimédia</a>
+					<a href="#Créations/slide6">Photographie</a>
+				</div>
+				
+				<div class="container">
+				<!-- Codrops top bar -->
+					<section id="dg-container" class="dg-container">
+						<div class="dg-wrapper">
+							<a href="#"><img src="images/othello.jpg" alt="image02"><div>Jeu d'othello en Java</div></a>
+							<a href="#"><img src="images/mastermind.jpg" alt="image02"><div>Jeu de mastermind en Python</div></a>
+							<a href="#"><img src="images/sommeil.jpg" alt="image02"><div>Site interactif présentant le sommeil en chiffres</div></a>
+						</div>
+						<nav>
+							<span class="dg-prev">&lt;</span>
+							<span class="dg-next">&gt;</span>
+						</nav>
+					</section>
+				</div>
+			</div>
+
+			<div class="slide" id="slide5" data-anchor="slide5">
+				<div>
+					<h1>Gallerie</h1>
+					<a href="#Créations">Infographie</a>
+					<a href="#Créations/slide2">Web</a>
+					<a href="#Créations/slide3">Audiovisuel</a>
+					<a href="#Créations/slide4">Programmation</a>
+					<a href="#Créations/slide5" class="aActiv">Multimédia</a>
+					<a href="#Créations/slide6">Photographie</a>
+				</div>
+				<div class="container">
+				<!-- Codrops top bar -->
+					<section id="dg-container" class="dg-container">
+						<div class="dg-wrapper">
+						<a href="#"><video src="images/Catch_me_if_you_CAN_color.mp4" controls>Oups</video><div>Animatique d'un clip humoristique avec des cubes représentant les quatres DUT de l'IUT de Laval</div></a>
+						<a href="#"><img src="images/rendu%202.png" alt="image02"><div>Modelisation 3D des cubes</div></a>
+						<a href="#"><video src="images/cubesfinal.mp4" width="480px" controls>Oups</video><div>Animation 3D des cubes</div></a>
+						<a href="#"><img src="images/sommeil.jpg" alt="image02"><div>Site interactif présentant le sommeil en chiffres</div></a>
+						<a href="#"><video src="images/johnDifoul.mp4" width="480px" controls>Oups</video><div>Montage sonore sur la bande dessinée John difoul</div></a>
+						<a href="#"><video src="images/Cuisinaute%20-%20Gateau%20Carambar.mp4" width="480px" controls>Oups</video><div>Animatique d'une application de cuisine pour enfants sur tablette</div></a>
+						<a href="#"><img src="images/gg.png" alt="image02"><div>Jeu tut 2016</div></a>
+						</div>
+						<nav>
+							<span class="dg-prev">&lt;</span>
+							<span class="dg-next">&gt;</span>
+						</nav>
+					</section>
+				</div>
+			</div>
+				
+			<div class="slide" id="slide6" data-anchor="slide6">
+				<div>
+					<h1>Gallerie</h1>
+					<a href="#Créations">Infographie</a>
+					<a href="#Créations/slide2">Web</a>
+					<a href="#Créations/slide3">Audiovisuel</a>
+					<a href="#Créations/slide4">Programmation</a>
+					<a href="#Créations/slide5">Multimédia</a>
+					<a href="#Créations/slide6" class="aActiv">Photographie</a>
+				</div>
+				<div class="container">
+				<!-- Codrops top bar -->
+					<section id="dg-container" class="dg-container">
+						<div class="dg-wrapper">
+							<a href="#"><img src="images/sommeil.jpg" alt="image02"><div>Site interactif présentant le sommeil en chiffres</div></a>
+						</div>
+						<nav>
+							<span class="dg-prev">&lt;</span>
+							<span class="dg-next">&gt;</span>
+						</nav>
+					</section>
+				</div>
+			</div>
+
+				<script type="text/javascript" src="js/jquery.gallery.js"></script>
+				<script type="text/javascript">
+					$(function() {
+						$('.dg-container').gallery();
+					});
+				</script>
+		</div>
+
+
+		<div class="section" id="section4">
+			<div class="intro">
+				<h1>Contact</h1>
+				<form action="mailto:alicia.rannou23@gmail.com" method="post" enctype="text/plain">
+					<fieldset>
+						<div>
+							<label for="nom">Nom :</label>
+							<input type="text" id="nom" name="nom" value="" required/>
+						</div>
+						<div>
+							<label for="prenom">Prénom :</label>
+							<input type="text" id="prenom" name="prenom"/>
+						</div>
+						<div>
+							<label for="email">E-mail :</label>
+							<input type="email" id="email" name="email" required/>
+						</div>
+						<div>
+							<p>Votre message :</p>
+							<textarea cols="70" rows="5" name="message" required></textarea>
+						</div>
+					</fieldset>
+					<div>
+						<input class=bouton type="submit" value="Envoyer" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer" style="background-color:gray">
+		<p>© 2016 Alicia Rannou</p>
+		<span>|</span>
+		<p>Tous droits réservés</p>
+		<span>|</span>
+		<a href="pdf_lambda.pdf" target="_blank">Télecharger mon CV</a>
+	</div>
+
+	<div id="header">
+		<p>Alicia Rannou</p>
+	</div>
+</body>
+
+</html>

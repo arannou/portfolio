@@ -1,0 +1,421 @@
+/****************************** GENERAL ************************************/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	padding: 0;
+	margin: 0;
+	font-family: 'Quicksand';
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h1{
+	font-size: 2em;
+}
+body {
+	font-family: arial, helvetica;
+}
+
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.aActiv, a.aActiv:visited {
+	font-weight: bold;
+	color: #afca17;
+}
+
+arrowScroll {
+	animation: bounce-fade 1.2s infinite;
+}
+
+p {
+	font-size: 12pt;
+}
+
+aside {
+	display: inline-block;
+	float: right;
+	width: 60%;
+	margin-right: 20px;
+	text-indent: 20px;
+	text-align: justify;
+}
+
+/****************************** MENU ************************************/
+#header, #footer{
+	position:fixed;
+	height: 50px;
+	display:block;
+	width: 100%;
+	background: #6F6F6E;
+	z-index:9;
+	text-align:center;
+	color: #f2f2f2;
+	padding: 20px 0 0 0;
+	text-align: right;
+
+}
+
+#header{
+	top:0px;
+	background:  url(ressources/header.png) #6F6F6E no-repeat top center;
+}
+
+#header p{
+	margin-right: 1em;
+	font-size: 26px;
+}
+
+#menu {
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 70px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#menu li, .bouton {
+	vertical-align: middle;
+
+	display: inline-block;
+	margin: 10px;
+	color: #000;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.5);
+	-webkit-border-bottom-right-radius: 25px;
+	-webkit-border-top-left-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	
+	-webkit-transition: border-radius 0.3s;
+	-o-transition: border-radius 0.3s;
+	transition: border-radius 0.3s;
+}
+
+#menu li.active, #menu .active:hover  {
+	background: rgb(175, 202, 23);
+	color: #fff;
+}
+
+#menu li a, .bouton a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+#menu li:hover, .bouton:hover {
+	-webkit-border-top-right-radius: 25px;
+	-webkit-border-bottom-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-top-right-radius: 25px;
+	
+	-webkit-border-bottom-right-radius: 0;
+	-webkit-border-top-left-radius: 0;
+	border-top-left-radius: 0;
+	border-bottom-right-radius: 0;
+
+	background: rgba(255, 255, 255, 0.8);
+}
+
+#menu li a, #menu li.active a, .bouton a {
+	padding: 16px 12px;
+	display: block;
+}
+
+#menu li.active a {
+	color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+	#header {
+		height: 6.5em;
+		text-align: center;
+		background: #6F6F6E;
+		font-size: 1em;
+	}
+
+	#menu {
+		padding: 4em 0 0 0;
+		display: block;
+	}
+}
+
+#footer{
+	text-align: center;
+	display: flex;
+	bottom:0px;
+	height: 30px;
+	padding-top: 5px;
+
+}
+
+#footer p, #footer a {
+	margin-left: 1em;
+	margin-right: 1em;
+	font-size: 1em;
+	vertical-align: middle;
+	color: white;
+}
+
+
+.bouton{
+	text-indent: 0;
+	background: rgb(175, 202, 23);
+}
+.bouton a{
+	color: white;
+}
+.bouton a:hover{
+	color: black;
+}
+.bouton:hover{
+	text-indent: 0;
+	background: grey;
+}
+
+/*******************   SECTIONS ************************/
+
+#section1 img {
+	margin: 5%;
+	width: 25%;
+}
+#dg-container img {
+	height: 316px;
+	padding: 0;
+}
+
+
+/*******************   CONTACT ************************/
+
+fieldset {
+	margin-right: 5%;
+	margin-left: 5%;
+	border: none;
+}
+
+input[type="submit"]{
+	padding: 16px 12px;
+	border: none;
+	font-size: 16px;
+	text-indent: 0;
+	background-color: rgb(175, 202, 23);
+	
+		-webkit-transition: border-radius 0.3s;
+	-o-transition: border-radius 0.3s;
+	transition: border-radius 0.3s;
+}
+input[type="submit"]:hover{
+	background-color: grey;
+	border-bottom-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	
+		-webkit-transition: border-radius 0.3s;
+	-o-transition: border-radius 0.3s;
+	transition: border-radius 0.3s;
+}
+input, textarea {
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border: 1px solid rgb(175, 202, 23);
+	text-indent: 1em;
+}
+
+label {
+	width: 120px;
+	display: inline-block;
+	text-align: right;
+	font-size: 19px;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+	border-width: 2px;
+}
+/************************************************ Backgrounds will cover all the section
+	* --------------------------------------- */
+	.section{
+		background-size:cover;
+	}
+	.slide{
+		background-size: cover;
+	}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+
+
+	#section0, #section1, #section2, #section3, #section4, #section5{
+		background-image: url(./media/bkgd/1.jpg);
+		background: red; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(white, #dbdbdb); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(white, #dbdbdb); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(white, #dbdbdb); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(white, #dbdbdb); /* Standard syntax */
+	}
+/*
+	#section2{
+		background-image: url(./media/bkgd/1.jpg);
+	}
+	#section3{
+		background-image: url(./media/bkgd/1.jpg);
+	}
+	#section4{
+		background-image: url(./media/bkgd/1.jpg);
+	}
+	#section5{
+		background-image: url(./media/bkgd/1.jpg);
+	}
+*/
+
+
+/***************************************************Adding background for the slides
+	* --------------------------------------- */
+
+
+	#slide1{
+/*		height: 70%;*/
+/*
+		background-image: url(../images/Logos.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-origin:content-box;
+		background-clip: content-box;
+*/
+	}
+/*
+	#slide2{
+		background-image: url(./media/bkgd/1.jpg);
+	}
+	#slide3{
+		background-image: url(./media/bkgd/1.jpg);
+	}
+	#slide4{
+		background-image: url(./media/bkgd/1.jpg);
+	}
+	#slide5{
+		background-image: url(./media/bkgd/1.jpg);
+	}
+*/
+
+.slide img{
+	height: 70%;
+/*
+	padding-top: 70px;
+	padding-bottom: 30px;
+	height: auto -100px;
+*/
+}
+.slide video, .slide iframe {
+	height: 70%;
+	width: 70%;
+}
+
+.slide {
+	position: relative;
+	vertical-align:center;
+}
+
+.slide>div>div span {
+	color: white;
+	display: block;
+	overflow: hidden;
+	height: auto;
+	max-height: 0;
+	transition: max-height 1s;
+}
+.slide>div>div:hover span {
+	transition: max-height 1s;
+	max-height: 500px;
+}
+.slide>div>div {
+	max-height: 500px;
+	position: absolute;
+	bottom: 180px;
+	left: 80px;
+	background-color: rgba(128, 128, 128, 0.62);
+/*	opacity: 0.6;*/
+	padding: 20px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	max-width: 250px;
+}
+
+.slide article img{
+	width: 25%;
+	
+}
+.slide article {
+	display: inline-block;
+	text-align: center;
+}
+
+
+#msg {
+	text-align: center;
+	z-index: 1;
+	position: absolute;
+	top:120px;
+	left: 40%;
+	width: 20%;
+	background-color: rgba(128, 128, 128, 0.8);
+	padding: 20px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	opacity: 1;
+	
+	-webkit-animation: opacite 1s 4s 1 normal forwards;
+	-moz-animation:    opacite 1s 4s 1 normal forwards;
+	-o-animation:      opacite 1s 4s 1 normal forwards;
+	animation:         opacite 1s 4s 1 normal forwards;
+}
+
+
+@-webkit-keyframes opacite {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes opacite {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-o-keyframes opacite {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes opacite {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+ 	/******************************************** Positioning of <li> elements for Parcours
+	* --------------------------------------- */
+
+
+#section2 li {
+	display: inline-block;
+	width: 50%;
+	border-left: solid rgb(175, 202, 23) 3px;
+	margin-bottom: 15px;
+}
+
+#section2 li:first-child {
+	height: 20px;
+	text-align: center;
+	vertical-align: top;
+	width: 120px;
+	padding-right: 50px;
+	border: none;
+}

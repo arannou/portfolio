@@ -1,0 +1,6 @@
+Serveur FTP : ftp.aliciarannou.com
+Nom d'utilisateur : alici707608
+Mot de passe : 7xjmZkP4
+Port : 21
+
+avec fileZilla
