@@ -1,6 +1,6 @@
 /****************************** GENERAL ************************************/
 
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td, a {
 	padding: 0;
 	margin: 0;
 	font-family: 'Quicksand';
@@ -12,7 +12,7 @@ a {
 }
 
 h1{
-	font-size: 2em;
+	font-size: 2rem;
 }
 body {
 	font-family: arial, helvetica;
@@ -35,47 +35,51 @@ p {
 
 /****************************** MENU ************************************/
 header{
-	position:fixed;
+	position: fixed;
 	display:flex;
 	flex-direction: row;
 	flex-wrap: wrap-reverse;
 	background: #6F6F6E;
-	text-align: right;
+	text-align: center;
+	align-items: stretch;
 	justify-content: space-between;
 	width: 100%;
 	/* background:  url(ressources/header.png) #6F6F6E no-repeat top center; */
 }
 
-@media screen and (max-width: 700px) {
-	header {
-		justify-content: center;
-	}
-}
 
 header h1{
 	font-size: 1.7rem;
 	padding: 1rem;
-	flex: initial;
-	flex-shrink: 0;
-	color: white
+	flex: 1 0 11rem;
+	color: white;
+	text-align: right;
+	font-weight: normal;
 }
 
 nav {
 	flex: initial;
 }
 
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap 
+}
+
 nav li, .bouton {
 	vertical-align: middle;
 
 	display: inline-block;
-	margin: 10px;
+	margin: .5rem;
 	color: #000;
 	background: #fff;
-	background: rgba(255, 255, 255, 0.5);
-	-webkit-border-bottom-right-radius: 25px;
-	-webkit-border-top-left-radius: 25px;
-	border-top-left-radius: 25px;
-	border-bottom-right-radius: 25px;
+	background: rgba(255, 255, 255, .5);
+	-webkit-border-bottom-right-radius: 1.7rem;
+	-webkit-border-top-left-radius: 1.7rem;
+	border-top-left-radius: 1.7rem;
+	border-bottom-right-radius: 1.7rem;
 	
 	-webkit-transition: border-radius 0.3s;
 	-o-transition: border-radius 0.3s;
@@ -94,10 +98,10 @@ nav li a, .bouton a {
 
 
 nav li:hover, .bouton:hover {
-	-webkit-border-top-right-radius: 25px;
-	-webkit-border-bottom-left-radius: 25px;
-	border-bottom-left-radius: 25px;
-	border-top-right-radius: 25px;
+	-webkit-border-top-right-radius: 1.7rem;
+	-webkit-border-bottom-left-radius: 1.7rem;
+	border-bottom-left-radius: 1.7rem;
+	border-top-right-radius: 1.7rem;
 	
 	-webkit-border-bottom-right-radius: 0;
 	-webkit-border-top-left-radius: 0;
@@ -108,7 +112,7 @@ nav li:hover, .bouton:hover {
 }
 
 nav li a, nav li.active a, .bouton a {
-	padding: 16px 12px;
+	padding: 1rem .8rem;
 	display: block;
 }
 
@@ -116,24 +120,85 @@ nav li.active a {
 	color: #fff;
 }
 
+@media screen and (max-width: 677px) {
+	header {
+		justify-content: center;
+	}
+	header h1 {
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 474px) {
+	header h1{
+		font-size: 1rem;
+		padding: .5rem;
+	}
+	nav li, nav li.active {
+		-webkit-border-bottom-right-radius: 1rem;
+		-webkit-border-top-left-radius: 1rem;
+		border-top-left-radius: 1rem;
+		border-bottom-right-radius: 1rem;
+	}
+	nav li a, nav li.active a, .bouton a {
+		padding: .6rem .4rem;
+		font-size: .8rem;
+	}
+	nav li:hover, nav li.active:hover, .bouton:hover {
+		-webkit-border-top-right-radius: 1rem;
+		-webkit-border-bottom-left-radius: 1rem;
+		border-bottom-left-radius: 1rem;
+		border-top-right-radius: 1rem;
+		
+		-webkit-border-bottom-right-radius: 0;
+		-webkit-border-top-left-radius: 0;
+		border-top-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+}
+
+@media screen and (max-width: 358px) {
+	header h1{
+		font-size: 1rem;
+		padding: .2rem;
+		padding-bottom: 0;
+	}
+	nav li a, nav li.active a, .bouton a {
+		padding: .5rem .3rem;
+		font-size: .7rem;
+	}
+	nav li, nav li.active {
+		margin: .5rem .3rem;
+	}
+}
+
+
 footer{
+	position: fixed;
 	text-align: center;
 	display: flex;
-	bottom:0px;
-	height: 30px;
-	padding-top: 5px;
+	bottom: 0;
+	width: 100%;
+	height: 2rem;
+	padding-top: .4rem;
 
 }
 
 footer p, footer a {
-	margin-left: 1em;
-	margin-right: 1em;
-	font-size: 1em;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	font-size: 1rem;
 	vertical-align: middle;
 	color: white;
 }
 
+@media screen and (max-width: 474px) {
+	footer p, footer a {
+		font-size: .7rem;
+	}
 
+}
 .bouton{
 	text-indent: 0;
 	background: rgb(175, 202, 23);
@@ -156,7 +221,6 @@ footer p, footer a {
 	width: 25%;
 }
 aside {
-	display: inline-block;
 	float: right;
 	width: 60%;
 	margin-right: 20px;
@@ -255,17 +319,7 @@ input:focus, textarea:focus {
 	* --------------------------------------- */
 
 
-	#slide1{
-/*		height: 70%;*/
-/*
-		background-image: url(../images/Logos.jpg);
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center;
-		background-origin:content-box;
-		background-clip: content-box;
-*/
-	}
+
 /*
 	#slide2{
 		background-image: url(./media/bkgd/1.jpg);
