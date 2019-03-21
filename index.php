@@ -57,28 +57,33 @@
 
 	<main>
 
-		<section class="presentation">
+		<section id="presentation">
+			
 			<div>
-				<img alt="Alicia Rannou" src="images/moi.png" />
-			</div>
-			<aside>
 				<h1>Présentation</h1>
-				<p>Bonjour ! Je m'appele Alicia et je vous souhaite la bienvenue sur mon site !</p>
-				<p>Passionnée par le dessin depuis toute petite, j'ai rapidement su affirmer ma <strong>créativité</strong> et mon désir de réaliser des choses originales, qui sortent du commun. Toujours envieuse d'<strong>apprendre</strong>, j'ai vite été atirée par les possibilités quasi infinies que donnent l'informatique.</p>
-				<p>Aujourd'hui en <strong>formation d'ingénieur Informatique Multimédia et Réseaux en alternance</strong> à Lannion, j'ai la joie de pouvoir enrichir et exercer mes cométences dans les deux domaines que j'apprécie le plus, le <strong>graphisme</strong> et le <strong>developpement web</strong>. C'est ce plaisir de travailler dans ce qui me plaît qui me motive chaque jour pour donner le meilleur de moi-même.</p>
+				<p>Bonjour ! Je m'appelle Alicia et je vous souhaite la bienvenue sur mon site !</p>
+				<p>Passionnée par le dessin depuis toute petite, j'ai rapidement su affirmer ma <strong>créativité</strong> et mon désir de réaliser des choses originales, qui sortent du commun. Toujours envieuse d'<strong>apprendre</strong>, j'ai vite été attirée par les possibilités quasi infinies que donnent l'informatique.</p>
+				<p>Aujourd'hui en <strong>formation d'ingénieur Informatique Multimédia et Réseaux en alternance</strong> à Lannion, j'ai la joie de pouvoir enrichir et exercer mes compétences dans les deux domaines que j'apprécie le plus, le <strong>graphisme</strong> et le <strong>développement web</strong>. C'est ce plaisir de travailler dans ce qui me plaît qui me motive chaque jour pour donner le meilleur de moi-même.</p>
 				<p>Grâce à mon alternance, j'ai depuis 3 ans un pied dans le <strong>monde du travail</strong> où j'exerce la fonction de lead developer sur les technologies web et android. Les <strong>nouvelles technologies</strong> me passionnent et la conception d'applications mobiles est devenue mon hobby du moment. Venez en découvrir plus sur mon GitHub ;)</p>
-
-				<div class="bouton">
-					<a href="CV%20v8.0.pdf" target="_blank">Télecharger mon CV</a>
+			
+				<div class="links">
+					<div class="bouton">
+						<a href="CV%20v8.0.pdf" target="_blank">Télecharger mon CV</a>
+					</div>
 				</div>
-				<a href=""><img class='icon' alt="Mon Linkedin" src="images/linkedin.png" /></a>
-				<a href=""><img class='icon' alt="Mon GitHub" src="images/github.png" /></a>
-			</aside>
+				<div class="links">
+					<a href="https://www.linkedin.com/in/alicia-rannou-983810109"><img class='icon' alt="Mon Linkedin" src="images/linkedin.png" /></a>
+					<a href="https://github.com/arannou"><img class='icon' alt="Mon GitHub" src="images/github.png" /></a>
+				</div>
+			</div>
+			<div class="img-container">
+				<img class="face" alt="Alicia Rannou" src="images/moi.png" />
+			</div>
 		</section>
 
 
-		<section id="section2">
-			<div class="parcours">
+		<section id="parcours">
+			<div>
 				<h1>Parcours</h1>
 				<div>
 					<li>Depuis Septembre 2016</li>

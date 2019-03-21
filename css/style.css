@@ -120,60 +120,6 @@ nav li.active a {
 	color: #fff;
 }
 
-@media screen and (max-width: 677px) {
-	header {
-		justify-content: center;
-	}
-	header h1 {
-		text-align: center;
-	}
-
-}
-
-@media screen and (max-width: 474px) {
-	header h1{
-		font-size: 1rem;
-		padding: .5rem;
-	}
-	nav li, nav li.active {
-		-webkit-border-bottom-right-radius: 1rem;
-		-webkit-border-top-left-radius: 1rem;
-		border-top-left-radius: 1rem;
-		border-bottom-right-radius: 1rem;
-	}
-	nav li a, nav li.active a, .bouton a {
-		padding: .6rem .4rem;
-		font-size: .8rem;
-	}
-	nav li:hover, nav li.active:hover, .bouton:hover {
-		-webkit-border-top-right-radius: 1rem;
-		-webkit-border-bottom-left-radius: 1rem;
-		border-bottom-left-radius: 1rem;
-		border-top-right-radius: 1rem;
-		
-		-webkit-border-bottom-right-radius: 0;
-		-webkit-border-top-left-radius: 0;
-		border-top-left-radius: 0;
-		border-bottom-right-radius: 0;
-	}
-}
-
-@media screen and (max-width: 358px) {
-	header h1{
-		font-size: 1rem;
-		padding: .2rem;
-		padding-bottom: 0;
-	}
-	nav li a, nav li.active a, .bouton a {
-		padding: .5rem .3rem;
-		font-size: .7rem;
-	}
-	nav li, nav li.active {
-		margin: .5rem .3rem;
-	}
-}
-
-
 footer{
 	position: fixed;
 	text-align: center;
@@ -184,7 +130,6 @@ footer{
 	padding-top: .4rem;
 
 }
-
 footer p, footer a {
 	margin-left: 1rem;
 	margin-right: 1rem;
@@ -193,12 +138,6 @@ footer p, footer a {
 	color: white;
 }
 
-@media screen and (max-width: 474px) {
-	footer p, footer a {
-		font-size: .7rem;
-	}
-
-}
 .bouton{
 	text-indent: 0;
 	background: rgb(175, 202, 23);
@@ -216,16 +155,45 @@ footer p, footer a {
 
 /*******************   SECTIONS ************************/
 
-.presentation img {
-	margin: 5%;
-	width: 25%;
+main {
+	padding-top: 3rem;
 }
-aside {
-	float: right;
-	width: 60%;
-	margin-right: 20px;
-	text-indent: 20px;
+
+main p {
+	padding-bottom: 0.8em;
+}
+
+.face {
+	width: 100%;
+	max-width: 350px;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+section>div {
+	margin: 2rem;
 	text-align: justify;
+}
+
+.links {
+	display: inline;
+	margin: auto;
+	text-align: left;
+}
+
+.img-container{
+	margin: auto 2rem;
+	flex-shrink: .5;
+}
+
+.icon {
+	width: 32px;
+	margin: auto;
+	vertical-align: middle;
+	padding: .5rem;
 }
 
 /*******************   CONTACT ************************/
@@ -299,49 +267,10 @@ input:focus, textarea:focus {
 		background: -moz-linear-gradient(white, #dbdbdb); /* For Firefox 3.6 to 15 */
 		background: linear-gradient(white, #dbdbdb); /* Standard syntax */
 	}
-/*
-	#section2{
-		background-image: url(./media/bkgd/1.jpg);
-	}
-	#section3{
-		background-image: url(./media/bkgd/1.jpg);
-	}
-	#section4{
-		background-image: url(./media/bkgd/1.jpg);
-	}
-	#section5{
-		background-image: url(./media/bkgd/1.jpg);
-	}
-*/
 
-
-/***************************************************Adding background for the slides
-	* --------------------------------------- */
-
-
-
-/*
-	#slide2{
-		background-image: url(./media/bkgd/1.jpg);
-	}
-	#slide3{
-		background-image: url(./media/bkgd/1.jpg);
-	}
-	#slide4{
-		background-image: url(./media/bkgd/1.jpg);
-	}
-	#slide5{
-		background-image: url(./media/bkgd/1.jpg);
-	}
-*/
 
 .slide img{
 	height: 70%;
-/*
-	padding-top: 70px;
-	padding-bottom: 30px;
-	height: auto -100px;
-*/
 }
 .slide video, .slide iframe {
 	height: 70%;
@@ -442,4 +371,93 @@ input:focus, textarea:focus {
 	width: 120px;
 	padding-right: 50px;
 	border: none;
+}
+
+@media screen and (max-width: 677px) {
+	header {
+		justify-content: center;
+	}
+	header h1 {
+		text-align: center;
+	}
+	main {
+		padding-top: 8rem;
+	}
+
+	section {
+		flex-wrap: wrap;
+	}
+
+	.img-container{
+		margin: auto;
+		padding: 0 2rem;
+		flex-shrink: 1;
+	}
+
+}
+
+@media screen and (max-width: 474px) {
+	header h1{
+		font-size: 1rem;
+		padding: .5rem;
+	}
+	nav li, nav li.active, .bouton {
+		-webkit-border-bottom-right-radius: 1rem;
+		-webkit-border-top-left-radius: 1rem;
+		border-top-left-radius: 1rem;
+		border-bottom-right-radius: 1rem;
+	}
+	nav li a, nav li.active a, .bouton a {
+		padding: .6rem .4rem;
+		font-size: .8rem;
+	}
+	nav li:hover, nav li.active:hover, .bouton:hover {
+		-webkit-border-top-right-radius: 1rem;
+		-webkit-border-bottom-left-radius: 1rem;
+		border-bottom-left-radius: 1rem;
+		border-top-right-radius: 1rem;
+		
+		-webkit-border-bottom-right-radius: 0;
+		-webkit-border-top-left-radius: 0;
+		border-top-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	main {
+		padding-top: 4rem;
+	}
+
+	p {
+		font-size: .85rem;
+	}
+
+	main h1 {
+		font-size: 1.4rem;
+	}
+	.links {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 358px) {
+	header h1{
+		font-size: 1rem;
+		padding: .2rem;
+		padding-bottom: 0;
+	}
+	nav li a, nav li.active a, .bouton a {
+		padding: .5rem .3rem;
+		font-size: .7rem;
+	}
+	nav li, nav li.active {
+		margin: .5rem .3rem;
+	}
+}
+
+@media screen and (max-width: 474px) {
+	footer p, footer a {
+		font-size: .7rem;
+	}
 }
