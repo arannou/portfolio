@@ -42,13 +42,13 @@
 		<nav>
 			<ul>
 				<li class="active">
-					<a href="#Présentation">Présentation</a>
+					<a href="#presentation">Présentation</a>
 				</li>
-				<li ><a href="#Parcours">Parcours</a>
+				<li ><a href="#parcours">Parcours</a>
 			</li>
-			<li><a href="#Créations">Créations</a>
+			<li><a href="#creations">Créations</a>
 		</li>
-		<li><a href="#Contact">Contact</a>
+		<li><a href="#contact">Contact</a>
 		</li>
 		</ul>
 		</nav>
@@ -83,30 +83,31 @@
 
 
 		<section id="parcours">
-			<div>
+			<div class="parcours-container">
 				<h1>Parcours</h1>
 				<div>
-					<li>Depuis Septembre 2016</li>
-					<li><p>Alternance en conception et développement web entre Orange Business Services à Cesson-Sévigné (35) et l'ENSSAT (École Nationale Supérieure des Sciences Appliquées et de Technologie) à Lannion (22) en formation ingénieur Informatique Multimédia et Réseau.</p>
-					<p>En entreprise, j'interviens au sein de l’équipe de supervision des équipements et services du cloud. J'ai eu pour mission la refonte d’un portail web et l'ajout de fonctionnalités. Puis on m'a confié un projet de 7 mois porté sur la conception d’une application mobile en Kotlin.</p>
-					<p>A l'école, j'approfondi ce que j'ai vu en DUT avec une approche ingénieur. Les cours de machine learning, synthèse d'images, conception de services et ergonomie, object connectés ou encore interfaces riches complètent ma culture de développeuse.</p>
-					</li>
+					<h2>Depuis Septembre 2016</h2>
+					<div class="parcours-text">
+						<p>Alternance en conception et développement web entre Orange Business Services à Cesson-Sévigné (35) et l'ENSSAT (École Nationale Supérieure des Sciences Appliquées et de Technologie) à Lannion (22) en formation ingénieur Informatique Multimédia et Réseau.</p>
+						<p>En entreprise, j'interviens au sein de l’équipe de supervision des équipements et services du cloud. J'ai eu pour mission la refonte d’un portail web et l'ajout de fonctionnalités. Puis on m'a confié un projet de 7 mois porté sur la conception d’une application mobile en Kotlin.</p>
+						<p>A l'école, j'approfondi ce que j'ai vu en DUT avec une approche ingénieur. Les cours de machine learning, synthèse d'images, conception de services et ergonomie, object connectés ou encore interfaces riches complètent ma culture de développeuse.</p>
+					</div>
 				</div>
 				<div>
-					<li>Septembre 2014 - Juin 2016</li>
-					<li>DUT MMI (Métiers du Multimédia et de l'Internet) à Laval (53). Cette formation en deux ans inclu du développement web, de la création multimédia, du graphisme et de la programmation.</li>
+					<h2>Septembre 2014 - Juin 2016</h2>
+					<p class="parcours-text"><p>DUT MMI (Métiers du Multimédia et de l'Internet) à Laval (53). Cette formation en deux ans inclu du développement web, de la création multimédia, du graphisme et de la programmation.</p>
 				</div>
 				<div>
-					<li>Avril - Mai 2016</li>
-					<li>Stage en développement web et webdesign chez Assura à Changé (53). Durant ce stage j'ai ajouté des fonctionnalités au site extranet de l'agence, pour la gestion des contrats de clients.</li>
+					<h2>Avril - Mai 2016</h2>
+					<p class="parcours-text"></pclass>>Stage en développement web et webdesign chez Assura à Changé (53). Durant ce stage j'ai ajouté des fonctionnalités au site extranet de l'agence, pour la gestion des contrats de clients.</p>
 				</div>
 				<div>
-					<li>Juillet - Août 2015</li>
-					<li>Développeuse web et base de données en interim chez Boccard à Montauban-de-Bretagne (35). J'ai été amenée à créer un site intranet permettant de consulter mettre à jour la base de données des projets réalisés par l'entreprise.</li>
+					<h2>Juillet - Août 2015</h2>
+					<p class="parcours-text">Développeuse web et base de données en interim chez Boccard à Montauban-de-Bretagne (35). J'ai été amenée à créer un site intranet permettant de consulter mettre à jour la base de données des projets réalisés par l'entreprise.</p>
 				</div>
 				<div>
-					<li>Juin 2014</li>
-					<li>Obtention du baccalauréat Scientifique spécialité Informatique et Sciences du Numérique, mention bien</li>
+					<h2>Juin 2014</h2>
+					<p class="parcours-text">Obtention du baccalauréat Scientifique spécialité Informatique et Sciences du Numérique, mention bien</p>
 				</div>
 				<!-- <div>
 					<li>2011 - 2014</li>
