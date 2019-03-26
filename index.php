@@ -116,8 +116,13 @@
 			</div>
 		</section>
 
-		<section id="section3">
-			<div class="slide" id="slide1" data-anchor="slide1">
+		<section id="creations">
+			<div>
+
+				<h1>Créations</h1>
+			</div>
+			<div class="creations-container">
+			<div class="slide">
 				<img src="images/Logos.jpg" alt="image01">
 				<div>
 					<p>Pictogrammes</p>
@@ -125,7 +130,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide2" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/L'univers-des-chaussures.jpg" alt="image02">
 				<div>
 					<p>Storyboard photo</p>
@@ -133,7 +138,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide3" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/pbste.jpg" alt="image03">
 				<div>
 					<p>Affiche sur un problème de société</p>
@@ -141,7 +146,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide4" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/baleine_airlines-2.0.jpg" alt="image04">
 				<div>
 					<p>Montage à la Magritte</p>
@@ -149,7 +154,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide5" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/couverture_v2_01.jpg" alt="image05">
 				<div>
 					<p>Couverture de livre</p>
@@ -157,7 +162,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide6" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/fiche-recette-V1.0.png" alt="image05">
 				<div>
 					<p>Feed Me</p>
@@ -165,14 +170,14 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide7" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/Affiche-mmi.jpg" alt="image05">
 				<div>
 					<p>Affiche pour la formation DUT MMI</p>
 					<span>Proposition de visuel présentant la formation DUT MMI</span>
 				</div>
 			</div>
-			<div class="slide" id="slide8" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/mascotte-3D-finale.jpg" alt="image05">
 				<div>
 					<p>Webimmi</p>
@@ -180,7 +185,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide9" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/Sides.jpg" alt="image05">
 				<div>
 					<p>Sides</p>
@@ -188,7 +193,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide10" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/labyzor.jpg" alt="image01">
 				<div>
 					<p>Labyzor</p>
@@ -196,7 +201,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide11" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/boccard.jpg" alt="image02">
 				<div>
 					<p>Boccard benchmarcking</p>
@@ -204,7 +209,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide12" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/accueil_2.jpg" alt="image02">
 				<div>
 					<p>Site web pour artisan</p>
@@ -212,7 +217,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide13" data-anchor="slide1">
+			<div class="slide">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/8Q8GK6YEg_8" frameborder="0" allowfullscreen></iframe>
 				<div>
 					<p>Publicité contre un problème de société</p>
@@ -220,7 +225,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide14" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/Scan%20storyboard_01.jpg" alt="" />
 				<div>
 					<p>Storyboard<p>
@@ -228,7 +233,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide15" data-anchor="slide1">
+			<div class="slide">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/L3R3iV24RRs" frameborder="0" allowfullscreen></iframe>
 				<div>
 					<p>Touttim - "J'oublie"</p>
@@ -236,7 +241,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide16" data-anchor="slide1">
+			<div class="slide">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/y57aMMfH_8M" frameborder="0" allowfullscreen></iframe>
 				<div>
 					<p>Les circuits courts de consommation</p>
@@ -245,7 +250,7 @@
 			</div>
 
 <!--
-			<div class="slide" id="slide17" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/othello.jpg" alt="image02">
 				<div>
 					<p>Jeu d'othello en Java</p>
@@ -253,7 +258,7 @@
 			</div>
 -->
 
-			<div class="slide" id="slide18" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/mastermind.jpg" alt="image02">
 				<div>
 					<p>Jeu de mastermind</p>
@@ -261,7 +266,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide19" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/statisommeil.jpg" alt="image02">
 				<div>
 					<p>Statisommeil</p>
@@ -269,7 +274,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide20" data-anchor="slide1">
+			<div class="slide">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/VThFZLVns1I" frameborder="0" allowfullscreen></iframe>
 				<div>
 					<p>Catch me if you Can - Animatique</p>
@@ -277,7 +282,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide21" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/rendu%202.png" alt="image02">
 				<div>
 					<p>Catch me if you Can - Modelisation</p>
@@ -285,7 +290,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide22" data-anchor="slide1">
+			<div class="slide">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/Th_kFzZ7AYw" frameborder="0" allowfullscreen></iframe>
 				<div>
 					<p>Catch me if you Can - Version Finale</p>
@@ -293,7 +298,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide23" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/assura.jpg" alt="image02">
 				<div>
 					<p>Site extranet pour Assura</p>
@@ -310,7 +315,7 @@
 			</div>
 -->
 
-			<div class="slide" id="slide25" data-anchor="slide1">
+			<div class="slide">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/Bj-sgFxA5tU" frameborder="0" allowfullscreen></iframe>
 				<div>
 					<p>Cuisinaute</p>
@@ -318,7 +323,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide26" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/gg.jpg" alt="image02">
 				<div>
 					<p>Greed's Gale</p>
@@ -326,7 +331,7 @@
 				</div>
 			</div>
 
-			<div class="slide" id="slide27" data-anchor="slide1">
+			<div class="slide">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/1k-B0s3KspM" frameborder="0" allowfullscreen></iframe>
 				<div>
 					<p>Mad Jack</p>
@@ -334,14 +339,14 @@
 				</div>
 			</div>
 			
-			<div class="slide" id="slide28" data-anchor="slide1">
+			<div class="slide">
 				<img src="images/logo-ic2-v3.0.png" alt="image02">
 				<div>
 					<p>Institut d'Informatique Claude Chappe</p>
 					<span>Proposition de logo. Dessin vectoriel avec Illustrator.</span>
 				</div>
 			</div>
-			<div class="slide" id="slide29" data-anchor="slide1">
+			<div class="slide">
 				<article id="gifs">
 					<img src="images/main%20version%203.gif" alt="image02">
 					<img src="images/nuage.gif" alt="image02">
@@ -352,10 +357,11 @@
 					<span>Réalisés à la main ou à la tablette graphique</span>
 				</div>
 			</div>
+			</div>
 		</section>
 
 
-		<section id="section4">
+		<section id="contact">
 			<div class="intro">
 				<h1>Contact</h1>
 				<form action="envoiMail.php" method="POST">
