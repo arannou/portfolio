@@ -33,7 +33,7 @@ a:visited {
 	color: #afca17;
 }
 
-p {
+p, label {
 	font-size: 1rem;
 }
 
@@ -263,7 +263,6 @@ label {
 	width: 120px;
 	display: inline-block;
 	text-align: right;
-	font-size: 19px;
 }
 
 input:focus, textarea:focus {
@@ -271,29 +270,21 @@ input:focus, textarea:focus {
 	border-width: 2px;
 }
 
-/* Defining each section background and styles
-* --------------------------------------- */
-
-
-section {
-	background-image: url(./media/bkgd/1.jpg);
-	background: red; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(white, #dbdbdb); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(white, #dbdbdb); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(white, #dbdbdb); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(white, #dbdbdb); /* Standard syntax */
-}
-
-
 .slide {
 	flex-basis: 200px;
 	flex-shrink: 0;
 	flex-grow: 1;
 	padding: .5rem;
+	max-width: 320px;
+	text-align: center;
 }
 
 .slide img {
 	width: 100%;
+}
+
+.slide.portrait img{
+	width: 70%;
 }
 
 .slide video, .slide iframe {
@@ -381,7 +372,7 @@ section#creations {
 		padding-top: 4rem;
 	}
 
-	p, span {
+	p, span, label {
 		font-size: .85rem;
 	}
 
