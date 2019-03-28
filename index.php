@@ -46,7 +46,7 @@
 				</li>
 				<li ><a href="#parcours">Parcours</a>
 			</li>
-			<li><a href="#creations">Créations</a>
+			<li><a href="#creations">Réalisations</a>
 		</li>
 		<li><a href="#contact">Contact</a>
 		</li>
@@ -99,7 +99,7 @@
 				</div>
 				<div>
 					<h2>Avril - Mai 2016</h2>
-					<p class="parcours-text"></pclass>>Stage en développement web et webdesign chez Assura à Changé (53). Durant ce stage j'ai ajouté des fonctionnalités au site extranet de l'agence, pour la gestion des contrats de clients.</p>
+					<p class="parcours-text"></p>Stage en développement web et webdesign chez Assura à Changé (53). Durant ce stage j'ai ajouté des fonctionnalités au site extranet de l'agence, pour la gestion des contrats de clients.</p>
 				</div>
 				<div>
 					<h2>Juillet - Août 2015</h2>
@@ -119,7 +119,7 @@
 		<section id="creations">
 			<div>
 
-				<h1>Créations</h1>
+				<h1>Réalisations</h1>
 			</div>
 			<div class="creations-container">
 
@@ -130,6 +130,27 @@
 					"titre"=>"Pictogrammes",
 					"texte"=>"Création d'icônes pour un logiciel de dessin fictif. Chaque icône représente une fonction. Imagination d'un univers graphique marqué par la monochromie. Vue isométrique stylisée.",
 					"source"=> "images/Logos.jpg",
+					"portrait" => false,
+					"type" => "image",
+					"visible" => true
+				],[
+					"titre"=>"Site web Raidy",
+					"texte"=>"Outil de gestion de raid sportif. Du tracé du parcours au classement des participants, Raidy facilite l'organisation de raids. Réalisé avec Synfony en 6 mois dans le cadre d'un projet de groupe.",
+					"source"=> "images/raidy-editor.jpg",
+					"portrait" => false,
+					"type" => "image",
+					"visible" => true
+				],[
+					"titre"=>"Applications android Raidy",
+					"texte"=>"En complément du site web, une application destinée aux organisateurs leur permet de tracer les parcours selon leur géolocalisation. Une seconde application permet aux bénévoles de baliser le raid et bagder les participants.",
+					"source"=> "images/PhoneMockup-helper.png",
+					"portrait" => true,
+					"type" => "image",
+					"visible" => true
+				],[
+					"titre"=>"Portail de supervision chez Orange",
+					"texte"=>"Site intranet permettant la consultation, vérification et production de supervision pour les équipes d'Orange Business Services.",
+					"source"=> "images/pbste.jpg",
 					"portrait" => false,
 					"type" => "image",
 					"visible" => true
@@ -154,6 +175,13 @@
 					"portrait" => false,
 					"type" => "image",
 					"visible" => false
+				],[
+					"titre"=>"Touttim - J'oublie",
+					"texte"=>"Clip musical tourné pour le groupe Touttim. Un homme évolue dans un appartement couvert de post-it. On suit sa pensée au fil des post-it. Au final, les post-it forment un visage, celui de la femme qu’il aime toujours.",
+					"source"=> "https://www.youtube.com/embed/L3R3iV24RRs",
+					"portrait" => false,
+					"type" => "video",
+					"visible" => true
 				],[
 					"titre"=>"Couverture de livre",
 					"texte"=>"Proposition de couverture pour l'ouvrage de P. Cottier et F. Burban sur le numérique d'aujourd'hui.",
@@ -186,6 +214,27 @@
 					"titre"=>"Sides",
 					"texte"=>"Création d'une police de caractères, inspirée de motifs tribaux et de labyrinthes. Disponible sur <a href='http://www.dafont.com/fr/sides.font'>Dafont.com</a>",
 					"source"=> "images/Sides.jpg",
+					"portrait" => false,
+					"type" => "image",
+					"visible" => true
+				],[
+					"titre"=>"Site extranet pour Assura",
+					"texte"=>"Ajout de fonctionnalités en PHP pour la gestion des contrats pour les assurances de transport de marchandises, correction de bugs.",
+					"source"=> "images/assura.jpg",
+					"portrait" => false,
+					"type" => "image",
+					"visible" => true
+				],[
+					"titre"=>"Challenge de l'innovation 2018",
+					"texte"=>"Présentation d'un pitch en équipe sur une solution de véhicules prioritaires connectés en 5G à la signalisation en ville.",
+					"source"=> "images/road-vipriority.png",
+					"portrait" => false,
+					"type" => "image",
+					"visible" => true
+				],[
+					"titre"=>"Robot arduino",
+					"texte"=>"Programmation d'un robot téléguidé via bluetooth avec une carte arduino. Détection d'obstacle via infrarouge.",
+					"source"=> "images/plan_controller.png",
 					"portrait" => false,
 					"type" => "image",
 					"visible" => true
@@ -223,13 +272,6 @@
 					"source"=> "images/Scan%20storyboard_01.jpg",
 					"portrait" => true,
 					"type" => "image",
-					"visible" => true
-				],[
-					"titre"=>"Touttim - J'oublie",
-					"texte"=>"Clip musical tourné pour le groupe Touttim. Un homme évolue dans un appartement couvert de post-it. On suit sa pensée au fil des post-it. Au final, les post-it forment un visage, celui de la femme qu’il aime toujours.",
-					"source"=> "https://www.youtube.com/embed/L3R3iV24RRs",
-					"portrait" => false,
-					"type" => "video",
 					"visible" => true
 				],[
 					"titre"=>"Les circuits courts de consommation",
@@ -281,13 +323,6 @@
 					"type" => "video",
 					"visible" => true
 				],[
-					"titre"=>"Site extranet pour Assura",
-					"texte"=>"Ajout de fonctionnalités en PHP pour la gestion des contrats pour les assurances de transport de marchandises, correction de bugs.",
-					"source"=> "images/assura.jpg",
-					"portrait" => false,
-					"type" => "image",
-					"visible" => true
-				],[
 					"titre"=>"Montage sonore",
 					"texte"=>"Mise en son d'une page de la bande dessinée John Difoul",
 					"source"=> "images/johnDifoul.mp4",
@@ -300,7 +335,7 @@
 					"source"=> "https://www.youtube.com/embed/Bj-sgFxA5tU",
 					"portrait" => false,
 					"type" => "video",
-					"visible" => true
+					"visible" => false
 				],[
 					"titre"=>"Greed's Gale",
 					"texte"=>"Projet tutoré DUT 2016. Jeu vidéo en 2D mélant un shoot’em up et des phases d’infiltration dans un univers médiéval et fantastique. Vous incarnez Robb, un voleur qui parcourt le pays à dos de dragon pour subtiliser les joyaux du Roi. Sur son chemin se dresseront de nombreux ennemis. Réalisé en groupe avec Unity.",
@@ -314,7 +349,7 @@
 					"source"=> "https://www.youtube.com/embed/1k-B0s3KspM",
 					"portrait" => false,
 					"type" => "video",
-					"visible" => true
+					"visible" => false
 				],[
 					"titre"=>"Institut d'Informatique Claude Chappe",
 					"texte"=>"Proposition de logo. Dessin vectoriel avec Illustrator.",
@@ -322,13 +357,6 @@
 					"portrait" => false,
 					"type" => "image",
 					"visible" => false
-				],[
-					"titre"=>"xxxxx",
-					"texte"=>"xxxxx",
-					"source"=> "images/xxxx.jpg",
-					"portrait" => false,
-					"type" => "image",
-					"visible" => true
 				]
 				);
 
