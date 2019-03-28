@@ -38,6 +38,14 @@ p, label {
 }
 
 /****************************** MENU ************************************/
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -3.5rem;
+    visibility: hidden;
+}
+
 header{
 	position: fixed;
 	display:flex;
@@ -183,6 +191,9 @@ section>div {
 	text-align: justify;
 }
 
+section>div.no-bottom {
+	margin-bottom: 0;
+}
 .links {
 	display: inline;
 	margin: auto;
@@ -222,10 +233,19 @@ section .parcours-container>div {
 
 /*******************   CONTACT ************************/
 
+section#contacts {
+	flex-direction: column;
+}
+.contact-container {
+	text-align: center;
+	padding-bottom: 3rem;
+}
 fieldset {
-	margin-right: 5%;
-	margin-left: 5%;
 	border: none;
+}
+
+fieldset div {
+	margin-top: .3rem;
 }
 
 input[type="submit"]{
@@ -239,28 +259,22 @@ input[type="submit"]{
 	-o-transition: border-radius .3s;
 	transition: border-radius .3s;
 }
-input[type="submit"]:hover{
-	background-color: grey;
-	border-bottom-left-radius: 25px;
-	border-top-right-radius: 25px;
-	border-top-left-radius: 0px;
-	border-bottom-right-radius: 0px;
-	
-		-webkit-transition: border-radius .3s;
-	-o-transition: border-radius .3s;
-	transition: border-radius .3s;
-}
-input, textarea {
+
+input.form-input, textarea {
 	border-bottom-left-radius: 0px;
 	border-top-right-radius: 0px;
-	border-top-left-radius: 25px;
-	border-bottom-right-radius: 25px;
+	border-top-left-radius: .7rem;
+	border-bottom-right-radius: .7rem;
 	border: 1px solid rgb(175, 202, 23);
-	text-indent: 1em;
+	text-indent: .8em;
+	width: calc(10rem + 20%);
 }
 
+textarea {
+	width: calc(20rem + 30%);
+}
 label {
-	width: 120px;
+	width: 8rem;
 	display: inline-block;
 	text-align: right;
 }
@@ -270,6 +284,8 @@ input:focus, textarea:focus {
 	border-width: 2px;
 }
 
+
+/* creations  */
 .slide {
 	flex-basis: 200px;
 	flex-shrink: 0;
@@ -293,7 +309,7 @@ input:focus, textarea:focus {
 }
 
 section#creations {
-	display: block;
+	flex-direction: column;
 }
 
 .creations-container {
@@ -318,7 +334,7 @@ section#creations {
 }
 
 
-@media screen and (max-width: 677px) {
+@media screen and (max-width: 697px) {
 	header {
 		justify-content: center;
 	}
@@ -337,6 +353,9 @@ section#creations {
 		margin: auto;
 		padding: 0 2rem;
 		flex-shrink: 1;
+	}
+	.anchor {
+		top: -7rem;
 	}
 
 }
@@ -403,6 +422,18 @@ section#creations {
 	}
 	section .parcours-container>div {
 		flex-direction: column;
+	}
+
+	label {
+		width: 3.5rem;
+	}
+
+	textarea {
+		width: 100%;
+	}
+
+	.anchor {
+		top: -4rem;
 	}
 }
 

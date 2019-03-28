@@ -46,7 +46,7 @@
 				</li>
 				<li ><a href="#parcours">Parcours</a>
 			</li>
-			<li><a href="#creations">Réalisations</a>
+			<li><a href="#realisations">Réalisations</a>
 		</li>
 		<li><a href="#contact">Contact</a>
 		</li>
@@ -56,9 +56,8 @@
 	</header>
 
 	<main>
-
-		<section id="presentation">
-			
+		<div class="anchor" id="presentation"></div>
+		<section>
 			<div>
 				<h1>Présentation</h1>
 				<p>Bonjour ! Je m'appelle Alicia et je vous souhaite la bienvenue sur mon site !</p>
@@ -81,8 +80,8 @@
 			</div>
 		</section>
 
-
-		<section id="parcours">
+		<div class="anchor" id="parcours"></div>
+		<section id="parfcours">
 			<div class="parcours-container">
 				<h1>Parcours</h1>
 				<div>
@@ -116,9 +115,9 @@
 			</div>
 		</section>
 
+		<div class="anchor" id="realisations"></div>
 		<section id="creations">
-			<div>
-
+			<div class="no-bottom">
 				<h1>Réalisations</h1>
 			</div>
 			<div class="creations-container">
@@ -397,27 +396,30 @@ foreach($creations as $crea) {
 			</div>
 		</section>
 
-
-		<section id="contact">
-			<div class="intro">
+		<div class="anchor" id="contact"></div>
+		<section id="contacts">
+			<div class="no-bottom">
 				<h1>Contact</h1>
+				<p>Envie de discuter ? Je suis joignable par e-mail via <a href="mailto:alicia.rannou23@gmail.com">alicia.rannou23@gmail.com</a> ou via le formulaire ci-dessous. A bientôt !
+			</div>
+			<div class="contact-container">
 				<form action="envoiMail.php" method="POST">
 					<fieldset>
 						<div>
 							<label for="nom">Nom :</label>
-							<input type="text" id="nom" name="nom" value="" />
+							<input type="text" class="form-input" id="nom" name="nom" value="" />
 						</div>
 						<div>
 							<label for="prenom">Prénom :</label>
-							<input type="text" id="prenom" name="prenom" />
+							<input type="text" class="form-input" id="prenom" name="prenom" />
 						</div>
 						<div>
 							<label for="sujet">Sujet :</label>
-							<input type="text" id="sujet" name="sujet" />
+							<input type="text" class="form-input" id="sujet" name="sujet" />
 						</div>
 						<div>
 							<label for="email">E-mail :</label>
-							<input type="email" id="email" name="email" required />
+							<input class="form-input" type="email" id="email" name="email" required />
 						</div>
 						<div>
 							<p>Votre message :</p>
@@ -425,7 +427,7 @@ foreach($creations as $crea) {
 						</div>
 					</fieldset>
 					<div>
-						<input type="submit" value="Envoyer" />
+						<input class="bouton" type="submit" value="Envoyer" />
 					</div>
 				</form>
 			</div>
