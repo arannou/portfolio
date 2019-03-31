@@ -21,7 +21,7 @@
 
 	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 
-	<script src="script.js"></script>
+	<script src="js/script.js"></script>
 
 
 </head>
@@ -81,7 +81,7 @@
 		</section>
 
 		<div class="anchor" id="parcours"></div>
-		<section id="parfcours">
+		<section>
 			<div class="parcours-container">
 				<h1>Parcours</h1>
 				<div>
@@ -368,6 +368,11 @@ foreach($creations as $crea) {
 			echo '<img src="'.$crea["source"].'" alt="'.$crea["titre"].'">';
 		} else if ($crea["type"]=="video") {
 			echo '<iframe width="560" height="315" src="'.$crea["source"].'" frameborder="0" allowfullscreen></iframe>';
+		} else if ($crea["type"]=="videoLocal") {
+			echo '<video width="560" height="315" controls>
+			<source src="'.$crea["source"].'" type="video/mp4">
+		  Your browser does not support the video tag.
+		  </video>';
 		}
 	?>
 				<div>
