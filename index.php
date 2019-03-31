@@ -67,7 +67,7 @@
 			
 				<div class="links">
 					<div class="bouton">
-						<a href="CV%20v8.0.pdf" target="_blank">Télecharger mon CV</a>
+						<a href="Alicia Rannou - CV 2019.pdf" target="_blank">Télecharger mon CV</a>
 					</div>
 				</div>
 				<div class="links">
@@ -76,7 +76,7 @@
 				</div>
 			</div>
 			<div class="img-container">
-				<img class="face" alt="Alicia Rannou" src="images/moi.png" />
+				<img class="face" alt="Alicia Rannou" src="images/moi-close.png" />
 			</div>
 		</section>
 
@@ -440,11 +440,11 @@ foreach($creations as $crea) {
 	</main>
 
 	<footer style="background-color:gray">
-		<p>© 2019 Alicia Rannou</p>
+		<p>© <?php echo date("Y"); ?> Alicia Rannou</p>
 		<span>|</span>
 		<p>Tous droits réservés</p>
 		<span>|</span>
-		<a href="CV%20v8.0.pdf" target="_blank">Télecharger mon CV</a>
+		<a href="Alicia Rannou - CV 2019.pdf" target="_blank">Télecharger mon CV</a>
 	</footer>
 </body>
 </html>
