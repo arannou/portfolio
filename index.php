@@ -149,7 +149,7 @@
 				],[
 					"titre"=>"Portail de supervision chez Orange",
 					"texte"=>"Site intranet permettant la consultation, vérification et production de supervision pour les équipes d'Orange Business Services.",
-					"source"=> "images/pbste.jpg",
+					"source"=> "images/mit.png",
 					"portrait" => false,
 					"type" => "image",
 					"visible" => true
