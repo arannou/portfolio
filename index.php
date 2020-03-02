@@ -6,7 +6,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Alicia Rannou</title>
 	<meta name="description" content="portfolio alicia rannou MMI" />
-	<meta name="keywords" content="alicia rannou multimédia MMI internet ingénieur ingénieur developpement web PHP linkedin recruter job enssat html angular front-end" />
+	<meta name="keywords" content="alicia rannou multimédia MMI internet ingénieur ingenieur developpement fullstack java web PHP linkedin recruter job enssat html angular front-end" />
 	<meta name="Resource-type" content="Document" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,7 +48,7 @@
 			</li>
 			<li><a href="#realisations">Réalisations</a>
 		</li>
-		<li><a href="#contact">Contact</a>
+		<!-- <li><a href="#contact">Contact</a> -->
 		</li>
 		</ul>
 		</nav>
@@ -62,8 +62,9 @@
 				<h1>Présentation</h1>
 				<p>Bonjour ! Je m'appelle Alicia et je vous souhaite la bienvenue sur mon site !</p>
 				<p>Passionnée par le dessin depuis toute petite, j'ai rapidement su affirmer ma <strong>créativité</strong> et mon désir de réaliser des choses originales, qui sortent du commun. Toujours envieuse d'<strong>apprendre</strong>, j'ai vite été attirée par les possibilités quasi infinies que donnent l'informatique.</p>
-				<p>Aujourd'hui en <strong>formation d'ingénieur Informatique Multimédia et Réseaux en alternance</strong> à Lannion, j'ai la joie de pouvoir enrichir et exercer mes compétences dans les deux domaines que j'apprécie le plus, le <strong>graphisme</strong> et le <strong>développement web</strong>. C'est ce plaisir de travailler dans ce qui me plaît qui me motive chaque jour pour donner le meilleur de moi-même.</p>
-				<p>Grâce à mon alternance, j'ai depuis 3 ans un pied dans le <strong>monde du travail</strong> où j'exerce la fonction de lead developer sur les technologies web et android. Les <strong>nouvelles technologies</strong> me passionnent et la conception d'applications mobiles est devenue mon hobby du moment. Venez en découvrir plus sur mon GitHub ;)</p>
+				
+				<p>Issue d'une <strong>formation d'ingénieur Informatique Multimédia et Réseaux en alternance</strong> à Lannion, j'ai eu la joie de pouvoir enrichir et exercer mes compétences dans les deux domaines que j'apprécie le plus, le <strong>graphisme</strong> et le <strong>développement web</strong>. C'est ce plaisir de travailler dans ce qui me plaît qui me motive chaque jour pour donner le meilleur de moi-même.</p>
+				<p>Aujourd'hui <strong>développeuse fullstack</strong> en CDI chez GFI Informatique à Rennes, où j'interviens sur des projets web innovants. Les <strong>nouvelles technologies</strong> me passionnent et la conception d'applications mobiles est devenue mon hobby du moment. Venez en découvrir plus sur mon GitHub ;)</p>
 			
 				<div class="links">
 					<div class="bouton">
@@ -85,11 +86,18 @@
 			<div class="parcours-container">
 				<h1>Parcours</h1>
 				<div>
-					<h2>Depuis Septembre 2016</h2>
+					<h2>Depuis Septembre 2019</h2>
+					<div class="parcours-text">
+						<p>Ingénieure développeuse fullstack chez GFI Informatique à Rennes (35)</p>
+						<p>Au sein d'une équipe dynamique, j'apporte mes compétences de développeuse principalement sur des projets en JAVA et javascript. Travailler dans une ESN me permet de continuer à apprendre au fil des projets qu'on me confie.</p>
+					</div>
+				</div>
+				<div>
+					<h2>Septembre 2016 - Septembre 2019</h2>
 					<div class="parcours-text">
 						<p>Alternance en conception et développement web entre Orange Business Services à Cesson-Sévigné (35) et l'ENSSAT (École Nationale Supérieure des Sciences Appliquées et de Technologie) à Lannion (22) en formation ingénieur Informatique Multimédia et Réseau.</p>
-						<p>En entreprise, j'interviens au sein de l’équipe de supervision des équipements et services du cloud. J'ai eu pour mission la refonte d’un portail web et l'ajout de fonctionnalités. Puis on m'a confié un projet de 7 mois porté sur la conception d’une application mobile en Kotlin.</p>
-						<p>A l'école, j'approfondi ce que j'ai vu en DUT avec une approche ingénieur. Les cours de machine learning, synthèse d'images, conception de services et ergonomie, object connectés ou encore interfaces riches complètent ma culture de développeuse.</p>
+						<p>En entreprise, j'intervenais au sein de l’équipe de supervision des équipements et services du cloud. J'ai eu pour mission la refonte d’un portail web et l'ajout de fonctionnalités. Puis on m'a confié un projet de 7 mois porté sur la conception d’une application mobile en Kotlin.</p>
+						<p>A l'école, j'ai approfondi ce que j'ai vu en DUT avec une approche ingénieur. Les cours de machine learning, synthèse d'images, conception de services et ergonomie, object connectés ou encore interfaces riches complètent ma culture de développeuse.</p>
 					</div>
 				</div>
 				<div>
@@ -295,7 +303,7 @@
 					"visible" => true
 				],[
 					"titre"=>"Statisommeil",
-					"texte"=>"Site web présentant de façon ludique des statistiques sur le sommeil, dans le monde et notre quotidien. Réalisé en jQuery. A découvrir <a href='http://perso.univ-lemans.fr/~i140994/'>ici</a>.",
+					"texte"=>"Site web présentant de façon ludique des statistiques sur le sommeil, dans le monde et notre quotidien. Réalisé en jQuery. A découvrir <a href='/statisommeil/index.html'>ici</a>.",
 					"source"=> "images/statisommeil.jpg",
 					"portrait" => false,
 					"type" => "image",
@@ -401,7 +409,7 @@ foreach($creations as $crea) {
 			</div>
 		</section>
 
-		<div class="anchor" id="contact"></div>
+		<!-- <div class="anchor" id="contact"></div>
 		<section id="contacts">
 			<div class="no-bottom">
 				<h1>Contact</h1>
@@ -412,7 +420,7 @@ foreach($creations as $crea) {
 					<fieldset>
 						<div>
 							<label for="nom">Nom :</label>
-							<input type="text" class="form-input" id="nom" name="nom" value="" />
+							<input required type="text" class="form-input" id="nom" name="nom" value="" />
 						</div>
 						<div>
 							<label for="prenom">Prénom :</label>
@@ -420,7 +428,7 @@ foreach($creations as $crea) {
 						</div>
 						<div>
 							<label for="sujet">Sujet :</label>
-							<input type="text" class="form-input" id="sujet" name="sujet" />
+							<input required type="text" class="form-input" id="sujet" name="sujet" />
 						</div>
 						<div>
 							<label for="email">E-mail :</label>
@@ -428,7 +436,7 @@ foreach($creations as $crea) {
 						</div>
 						<div>
 							<p>Votre message :</p>
-							<textarea cols="70" rows="5" name="message" required></textarea>
+							<textarea required cols="70" rows="5" name="message" required></textarea>
 						</div>
 					</fieldset>
 					<div>
@@ -436,7 +444,7 @@ foreach($creations as $crea) {
 					</div>
 				</form>
 			</div>
-		</section>
+		</section> -->
 	</main>
 
 	<footer style="background-color:gray">
