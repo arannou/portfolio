@@ -1,5 +1,5 @@
 <?php
-
+/* 
 if (isset($_POST["prenom"]) && isset($_POST["nom"]) && isset($_POST["email"]) && isset($_POST["message"]) && $_POST["prenom"] != "" && $_POST["nom"] != "" && $_POST["message"] != "" && $_POST["email"] != "") {
 
 	$nom = ($_POST["nom"]);
@@ -44,5 +44,5 @@ if (isset($_POST["prenom"]) && isset($_POST["nom"]) && isset($_POST["email"]) &&
 	$_SESSION["status"]=0;
 }
 header("Location: index.php") ;
-
+ */
 ?>
