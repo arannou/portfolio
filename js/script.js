@@ -237,6 +237,7 @@ const mediasJson = [
 
 
 function fn() {
+    displayCredits();
     offsetGetter();
     displayCreations();
     window.onresize = offsetGetter;
@@ -327,4 +328,9 @@ function displayCreations() {
     });
 
     
+}
+
+function displayCredits() {
+    const year = new Date().getFullYear();
+    document.getElementById("credits").innerText = "© " + year + " Alicia Rannou";
 }
