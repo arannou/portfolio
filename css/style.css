@@ -199,9 +199,13 @@ section>div.no-bottom {
 	text-align: left;
 }
 
-.img-container{
+.img-container {
 	margin: auto 2rem;
 	flex-shrink: .5;
+}
+
+.img-container img {
+	border-radius: 50%;
 }
 
 .icon {
