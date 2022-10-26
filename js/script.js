@@ -17,7 +17,7 @@ const mediasJson = [
         "visible" : true
     },{
         "titre":"Applications android Raidy",
-        "texte":"En complément du site web, une application destinée aux organisateurs leur permet de tracer les parcours selon leur géolocalisation. Une seconde application permet aux bénévoles de baliser le raid et bagder les participants.",
+        "texte":"En complément du site web, une application destinée aux organisateurs leur permet de tracer les parcours selon leur géolocalisation. Une seconde application permet aux bénévoles de baliser le raid et badger les participants.",
         "source": "images/PhoneMockup-helper.png",
         "portrait" : true,
         "type" : "image",
