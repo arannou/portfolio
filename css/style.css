@@ -1,6 +1,6 @@
 /****************************** GENERAL ************************************/
 :root {
-	--primary: var(--my-green);
+	--primary: var(--my-emerald);
 	--secondary: var(--my-grey-light);
 	--secondary-dark: var(--my-grey);
 
@@ -8,13 +8,9 @@
 	--my-grey: #6F6F6E;
 	--my-grey-light: #d1d1d1;
 	
-	--my-emerald: #217446;
-	--my-terracotta: #e4b99c;
-	--my-brick: #d37232;
-	--my-red: #db392d;
-	--my-blue: #363483;
-	--my-lavender: #908eca;
-	--my-yellow: #ffc600;
+	--my-emerald: #339045;
+	--my-brick: #ec663b;
+
 }
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td, a {
 	padding: 0;
@@ -67,7 +63,7 @@ header{
 	display:flex;
 	flex-direction: row;
 	flex-wrap: wrap-reverse;
-	background: var(--primary);
+	background-image: linear-gradient(to bottom right, var(--my-emerald), var(--my-brick));
 	text-align: center;
 	align-items: stretch;
 	justify-content: space-between;
@@ -151,7 +147,7 @@ footer p, footer a, footer a:visited {
 
 .bouton{
 	text-indent: 0;
-	background: var(--primary);
+	background-image: linear-gradient(to bottom right, var(--my-emerald), var(--my-brick));
 }
 .bouton a{
 	color: white;
